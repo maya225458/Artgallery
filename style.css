@@ -1,0 +1,477 @@
+/* Background only for Login Page */
+
+.login-page{
+
+background-image:url("images/background.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+background-repeat:no-repeat;
+
+height:100vh;
+
+margin:0;
+
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* Main Container */
+
+.container{
+
+height:100vh;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:0 80px;
+
+}
+
+/* Left Side */
+
+.left-content{
+
+width:50%;
+
+color:rgb(248, 243, 243);
+
+}
+
+.left-content h1{
+
+font-size:60px;
+
+margin-bottom:20px;
+
+}
+
+.left-content p{
+
+font-size:20px;
+
+line-height:35px;
+
+}
+
+/* Login Box */
+
+.login-box{
+
+width:360px;
+
+background:rgba(255, 216, 230, 0.9);
+
+padding:35px;
+
+border-radius:12px;
+
+box-shadow:0 0 20px rgba(0,0,0,.3);
+
+}
+
+.login-box h2{
+
+text-align:center;
+
+margin-bottom:30px;
+
+}
+
+.signup-text{
+
+margin-top:20px;
+
+text-align:center;
+
+}
+
+.signup-text a{
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+/* ---------- Navigation ---------- */
+
+.navbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 60px;
+
+background:#222;
+
+color:white;
+
+}
+
+.navbar ul{
+
+display:flex;
+
+list-style:none;
+
+gap:30px;
+
+margin:0;
+
+padding:0;
+
+}
+
+.navbar a{
+
+color:white;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.navbar a:hover{
+
+color:gold;
+
+}
+
+/* ---------- Hero Section ---------- */
+
+.hero{
+
+height:80vh;
+
+background-image:url("images/background.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+.hero-content{
+
+background:rgba(255,255,255,0.85);
+
+padding:40px;
+
+border-radius:15px;
+
+width:60%;
+
+}
+
+.hero-content h1{
+
+font-size:45px;
+
+margin-bottom:20px;
+
+}
+
+.hero-content p{
+
+font-size:20px;
+
+line-height:32px;
+
+}
+
+.explore-btn{
+
+display:inline-block;
+
+margin-top:20px;
+
+padding:12px 30px;
+
+background:#222;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:8px;
+
+}
+
+.explore-btn:hover{
+
+background:gold;
+
+color:black;
+
+}
+
+/* ---------- Featured Section ---------- */
+
+.featured{
+
+padding:60px;
+
+text-align:center;
+
+}
+
+.cards{
+
+display:flex;
+
+justify-content:space-around;
+
+margin-top:40px;
+
+}
+
+.card{
+
+width:300px;
+
+padding:20px;
+
+border-radius:12px;
+
+box-shadow:0 0 15px rgba(0,0,0,.2);
+
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.card img{
+
+width:100%;
+
+height:220px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+}
+/* -------- Gallery Page -------- */
+
+.gallery-heading{
+
+text-align:center;
+
+padding:50px 20px;
+
+}
+
+.gallery-heading h1{
+
+font-size:45px;
+
+margin-bottom:10px;
+
+}
+
+.gallery-heading p{
+
+font-size:20px;
+
+color:#555;
+
+}
+
+.gallery-container{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:20px;
+
+padding:20px 50px 60px;
+
+}
+
+.gallery-card{
+
+width:280px;
+
+background:rgb(241, 236, 236);
+
+border-radius:12px;
+
+overflow:hidden;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+transition:0.3s;
+
+text-align:center;
+
+}
+
+.gallery-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.gallery-card img{
+
+width:100%;
+
+height:260px;
+
+object-fit:cover;
+
+}
+
+.gallery-card h3{
+
+margin-top:15px;
+
+}
+
+.gallery-card p{
+
+color:gray;
+
+}
+
+.view-btn{
+
+display:inline-block;
+
+margin:15px;
+
+padding:10px 20px;
+
+background:#222;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:8px;
+
+}
+
+.view-btn:hover{
+
+background:gold;
+
+color:black;
+
+}
+.about-section,
+.contact-section{
+
+width:80%;
+
+margin:50px auto;
+
+padding:40px;
+
+background:white;
+
+border-radius:10px;
+
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+
+}
+
+.about-section h1,
+.contact-section h1{
+
+text-align:center;
+
+margin-bottom:25px;
+
+}
+
+.about-section p{
+
+font-size:18px;
+
+line-height:30px;
+
+text-align:justify;
+
+}
+/* ---------- About Page ---------- */
+
+.about{
+
+width:80%;
+
+margin:50px auto;
+
+background:white;
+
+padding:40px;
+
+border-radius:12px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+.about h1{
+
+text-align:center;
+
+margin-bottom:25px;
+
+font-size:40px;
+
+}
+
+.about p{
+
+font-size:18px;
+
+line-height:30px;
+
+text-align:justify;
+
+margin-bottom:20px;
+
+}
+
+/* ---------- Footer ---------- */
+
+footer{
+
+background:#222;
+
+color:white;
+
+text-align:center;
+
+padding:20px;
+
+margin-top:40px;
+
+}
