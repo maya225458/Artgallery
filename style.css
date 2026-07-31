@@ -408,4 +408,279 @@ padding:10px 22px;
 }
 
 }
+/* ==========================================
+   HERO SECTION
+========================================== */
 
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(27,54,93,0.65),rgba(27,54,93,0.65)),
+    url("../images/gallery-banner.jpg") center/cover no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    color:white;
+}
+
+.hero-content{
+    max-width:800px;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:58px;
+    margin-bottom:20px;
+    text-shadow:2px 2px 8px rgba(0,0,0,.4);
+}
+
+.hero-content p{
+    font-size:20px;
+    margin-bottom:35px;
+    line-height:1.8;
+}
+
+/* ==========================================
+   FEATURED PAINTINGS
+========================================== */
+
+.featured{
+    background:#ffffff;
+}
+
+.featured h2{
+    text-align:center;
+    color:#1b365d;
+    margin-bottom:50px;
+}
+
+.featured-container{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:35px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.2);
+
+}
+
+.card img{
+
+    height:320px;
+
+    object-fit:cover;
+
+}
+
+.card h3{
+
+    color:#1b365d;
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+.card p{
+
+    text-align:center;
+
+    color:#666;
+
+    padding:15px 20px 25px;
+
+}
+
+/* ==========================================
+   ABOUT SECTION
+========================================== */
+
+.about{
+
+    background:#f4efe7;
+
+    text-align:center;
+
+}
+
+.about h2{
+
+    color:#1b365d;
+
+    margin-bottom:25px;
+
+}
+
+.about p{
+
+    max-width:900px;
+
+    margin:auto;
+
+    font-size:18px;
+
+    color:#555;
+
+    line-height:1.9;
+
+}
+
+/* ==========================================
+   CONTACT SECTION
+========================================== */
+
+.contact{
+
+    background:white;
+
+    text-align:center;
+
+}
+
+.contact h2{
+
+    color:#1b365d;
+
+    margin-bottom:25px;
+
+}
+
+.contact p{
+
+    font-size:18px;
+
+    margin:12px 0;
+
+    color:#555;
+
+}
+
+/* ==========================================
+   HOME PAGE SPACING
+========================================== */
+
+.featured,
+.about,
+.contact{
+
+    padding-top:80px;
+    padding-bottom:80px;
+
+}
+
+/* ==========================================
+   SIMPLE FADE ANIMATION
+========================================== */
+
+.hero-content,
+.card,
+.about,
+.contact{
+
+    animation:fadeUp 1s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ==========================================
+   RESPONSIVE HOME PAGE
+========================================== */
+
+@media(max-width:900px){
+
+.hero{
+
+height:75vh;
+
+}
+
+.hero-content h1{
+
+font-size:42px;
+
+}
+
+.hero-content p{
+
+font-size:18px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.hero{
+
+height:65vh;
+
+padding:20px;
+
+}
+
+.hero-content h1{
+
+font-size:32px;
+
+}
+
+.hero-content p{
+
+font-size:16px;
+
+}
+
+.card img{
+
+height:250px;
+
+}
+
+.about p,
+.contact p{
+
+font-size:16px;
+
+}
+
+}
