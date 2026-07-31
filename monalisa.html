@@ -1,121 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Mona Lisa</title>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mona Lisa | Art Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<nav class="navbar">
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h2>🎨 Art Gallery</h2>
+            </div>
 
-<h2>Art Gallery</h2>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<ul>
+    <!-- Artwork Details -->
+    <section class="art-details">
 
- <li><a href="home.html">Home</a></li>
+        <div class="art-image">
+            <img src="images/monalisa.jpg" alt="Mona Lisa">
+        </div>
 
-        <li><a href="gallery.html">Gallery</a></li>
+        <div class="art-info">
 
-        <li><a href="about.html">About</a></li>
+            <h1>Mona Lisa</h1>
 
-        <li><a href="contact.html">Contact</a></li>
+            <h3>Artist: Leonardo da Vinci</h3>
 
-        <li><a href="index.html">Logout</a></li>
+            <p><strong>Year of Creation:</strong> 1503–1506 (completed around 1517)</p>
 
-</ul>
+            <p><strong>Category:</strong> Renaissance Portrait</p>
 
-</nav>
+            <h2>Description</h2>
 
-<div class="art-container">
+            <p>
+                The <strong>Mona Lisa</strong> is one of the world's most famous
+                paintings. Created by Leonardo da Vinci during the Renaissance,
+                it is admired for the subject's mysterious smile, realistic
+                details, and innovative painting techniques. The portrait is
+                displayed in the Louvre Museum in Paris and attracts millions
+                of visitors every year.
+            </p>
 
-<div class="art-image">
+        </div>
 
-<img src="images/monalisa.jpg" alt="Mona Lisa">
+    </section>
 
-</div>
+    <!-- Similar Artworks -->
+    <section class="similar-art">
 
-<div class="art-details">
+        <h2>Similar Artworks</h2>
 
-<h1>Mona Lisa</h1>
+        <div class="similar-container">
 
-<h3>Leonardo da Vinci</h3>
+            <div class="similar-card">
+                <img src="images/ladywithermine.jpg" alt="Lady with an Ermine">
+                <h3>Lady with an Ermine</h3>
+                <p>Leonardo da Vinci</p>
+            </div>
 
-<p><strong>Year:</strong> 1503–1506</p>
+            <div class="similar-card">
+                <img src="images/lastsupper.jpg" alt="The Last Supper">
+                <h3>The Last Supper</h3>
+                <p>Leonardo da Vinci</p>
+            </div>
 
-<p><strong>Style:</strong> Renaissance</p>
+            <div class="similar-card">
+                <img src="images/vitruvian.jpg" alt="Vitruvian Man">
+                <h3>Vitruvian Man</h3>
+                <p>Leonardo da Vinci</p>
+            </div>
 
-<p><strong>Museum:</strong> Louvre Museum, Paris</p>
+        </div>
 
-<p>
+    </section>
 
-The Mona Lisa is one of the world's most famous paintings.
-It is admired for its mysterious smile and realistic
-portrait style. Painted by Leonardo da Vinci, it attracts
-millions of visitors every year.
+    <!-- Back Button -->
+    <section class="back-button">
+        <a href="gallery.html" class="btn">← Back to Gallery</a>
+    </section>
 
-</p>
-
-<a href="gallery.html" class="back-btn">
-
-← Back to Gallery
-
-</a>
-
-</div>
-
-</div>
-
-<section class="similar">
-
-<h2>Similar Paintings</h2>
-
-<div class="cards">
-
-<div class="card">
-
-<img src="images/starrynight.jpg">
-
-<h4>Starry Night</h4>
-
-</div>
-
-<div class="card">
-
-<img src="images/scream.png">
-
-<h4>The Scream</h4>
-
-</div>
-<div class="card">
-<img src="images/pearlgirl.png">
-
-<h4>Girl with a Pearl Earring</h4>
-
-</div>
-
-<div class="card">
-
-<img src="images/persistence.png">
-
-<h4>Persistence of Memory</h4>
-
-</div>
-
-</div>
-
-</section>
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Art Gallery | Educational Project</p>
+    </footer>
 
 </body>
-
 </html>
