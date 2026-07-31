@@ -1,127 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Girl with a Pearl Earring</title>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girl with a Pearl Earring | Art Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<!-- Navigation -->
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
 
-<nav class="navbar">
+            <div class="logo">
+                <h2>🎨 Art Gallery</h2>
+            </div>
 
-<h2>Art Gallery</h2>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
 
-<ul>
+        </nav>
+    </header>
 
- <li><a href="home.html">Home</a></li>
+    <!-- Artwork Details -->
 
-        <li><a href="gallery.html">Gallery</a></li>
+    <section class="art-details">
 
-        <li><a href="about.html">About</a></li>
+        <div class="art-image">
+            <img src="images/girlwithpearl.jpg" alt="Girl with a Pearl Earring">
+        </div>
 
-        <li><a href="contact.html">Contact</a></li>
+        <div class="art-info">
 
-        <li><a href="index.html">Logout</a></li>
+            <h1>Girl with a Pearl Earring</h1>
 
-</ul>
+            <h3>Artist: Johannes Vermeer</h3>
 
-</nav>
+            <p><strong>Year of Creation:</strong> 1665</p>
 
-<!-- Artwork Section -->
+            <p><strong>Category:</strong> Baroque Portrait</p>
 
-<div class="art-container">
+            <h2>Description</h2>
 
-<div class="art-image">
+            <p>
+                <strong>Girl with a Pearl Earring</strong> is one of the most
+                celebrated paintings by the Dutch artist Johannes Vermeer.
+                Often referred to as the "Mona Lisa of the North," the painting
+                captures a young woman wearing an exotic dress, a blue and gold
+                turban, and a striking pearl earring. The soft lighting,
+                realistic expression, and delicate brushwork make it one of
+                the greatest masterpieces of the Dutch Golden Age.
+            </p>
 
-<img src="images/pearlgirl.png" alt="Girl with a Pearl Earring">
+        </div>
 
-</div>
+    </section>
 
-<div class="art-details">
+    <!-- Similar Paintings -->
 
-<h1>Girl with a Pearl Earring</h1>
+    <section class="similar-art">
 
-<h3>Johannes Vermeer</h3>
+        <h2>Similar Artworks</h2>
 
-<p><strong>Year:</strong> 1665</p>
+        <div class="similar-container">
 
-<p><strong>Style:</strong> Tronie</p>
+            <div class="similar-card">
+                <img src="images/milkmaid.jpg" alt="The Milkmaid">
+                <h3>The Milkmaid</h3>
+                <p>Johannes Vermeer</p>
+            </div>
 
-<p><strong>Museum:</strong> Mauritshuis Museum,The Hague,Netherlands</p>
+            <div class="similar-card">
+                <img src="images/viewofdelft.jpg" alt="View of Delft">
+                <h3>View of Delft</h3>
+                <p>Johannes Vermeer</p>
+            </div>
 
-<p>
+            <div class="similar-card">
+                <img src="images/womanbalance.jpg" alt="Woman Holding a Balance">
+                <h3>Woman Holding a Balance</h3>
+                <p>Johannes Vermeer</p>
+            </div>
 
-Girl with a Pearl Earring is one of Johannes Vermeer's most famous pintings.
-It is often called the "Mona Lisa of the north " because of the girl's mysterious expression
-and captivating gaze.The painting is admired for its beautigul use of light,soft colors, and the striking pearl
-earring.
-</p>
+        </div>
 
-<a href="gallery.html" class="back-btn">
+    </section>
 
-← Back to Gallery
+    <!-- Back Button -->
 
-</a>
+    <section class="back-button">
 
-</div>
+        <a href="gallery.html" class="btn">
+            ← Back to Gallery
+        </a>
 
-</div>
+    </section>
 
-<!-- Similar Paintings -->
+    <!-- Footer -->
 
-<section class="similar">
+    <footer>
 
-<h2>Similar Paintings</h2>
+        <p>
+            © 2026 Art Gallery | Educational Project
+        </p>
 
-<div class="cards">
-
-<div class="card">
-
-<img src="images/monalisa.jpg">
-
-<h4>Mona Lisa</h4>
-
-</div>
-
-<div class="card">
-
-<img src="images/scream.png">
-
-<h4>The Scream</h4>
-
-</div>
-<div class="card">
-
-<img src="images/starrynight.jpg">
-
-<h4>Starry Night</h4>
-
-</div>
-
-<div class="card">
-
-<img src="images/persistence.png">
-
-<h4>Persistence of Memory</h4>
-
-</div>
-
-</div>
-
-</section>
+    </footer>
 
 </body>
-
 </html>  
